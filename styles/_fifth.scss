@@ -1,0 +1,72 @@
+.fifth {
+    &-section {
+            display: flex;
+            
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            max-width: none;
+            width: 100%;
+        
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: url(../images/section-five-bg.png);
+
+        &-text {
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    &-title {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    &-five {
+        width: 668px;
+        height: 287px;
+        background-color: #232323cb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    &-five-title {
+        font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &-five-text {
+        font-size: 15px;
+        line-height: 26px;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
