@@ -1,0 +1,165 @@
+.first-section {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/section-one-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    max-width: none;
+}
+
+.first-section-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.main-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.main-slogan {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+}
+
+
+.search-bar-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+.search-bar {
+    width: 500px;
+    height: 60px;
+    left: 2px;
+    top: 2px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
+
+}
+
+.search-bar:hover{
+    box-shadow: 0px 0px 15px 21px rgba(0,0,0,0.1);
+
+}
+
+.search-btn {
+    width: 150px;
+    height: 66px;
+    font-family: 'Aleo', serif;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.search-btn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+.scroll-down {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.scroll-down-txt {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+}
+
+i {
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.first-section-nav {
+    width: 100%;
+    height: 83px;
+    background-color:#5474FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-title-nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    gap: 2rem;
+    align-items: space-around;
+    justify-items: center;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.nav-item:hover {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(253, 253, 255, 0.591);
+}
