@@ -11,30 +11,21 @@
         width: 100%;
         background-image: url("../images/section-two-bg.png");
 
-    
-
-        &-box {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-
         &-text {
             width: 560px;
             display: flex;
             flex-direction: column;
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1.6px;
+            color: #E8E8E8;
         }
     }
 
-    &-text {
-        font-family: 'Josefin Sans', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 1.6px;
-        color: #E8E8E8;
-    }
+ 
 
     &-title {
         font-family: 'Aleo', serif;

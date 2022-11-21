@@ -1,0 +1,66 @@
+.third {
+    &-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        
+        width: 100%;
+        background-image: url("../images/section-three-bg.png");
+    }
+}
+
+.box {
+    margin-left: 20px;
+    width: 543px;
+    height: 374px;
+    background-color: #232323cb;
+    
+    
+
+
+    &-paragraph {
+        font-size: 16px;
+    }
+
+    &-text {
+        margin-left: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        letter-spacing: 1.5px;
+        color: #E8E8E8;
+    }
+}
+
+.book-btn {
+    width: 228px;
+    height: 63px;
+    margin-left: 20px;
+    background: #496BFE;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+
+    &:active {
+        transform: scale(0.98);
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    }
+}
